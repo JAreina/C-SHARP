@@ -5,3 +5,17 @@ $ dotnet new console
 $ dotnet new console --name  jareina -lang VB
 EJECUTAR
 $ dotnet run
+
+------------------------
+
+Método Main CS
+
+4 formas:
+
+public static int Main()
+public static void Main()
+public static void Main(String[] args)
+public static int Main(String[] args)
+
+
+--------------------------------------------------
