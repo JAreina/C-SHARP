@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace _22_clases {
-    
+
     class Puerta {
         int ancho; // Ancho en centimetros
         int alto; // Alto en centimetros
@@ -21,14 +21,5 @@ namespace _22_clases {
         }
     } // Final de la clase Puerta
 
-    public class Principal {
-        public static void Main () {
-            Puerta p = new Puerta ();
-            Console.WriteLine ("Valores iniciales...");
-            p.MostrarEstado ();
-            Console.WriteLine ("\nVamos a abrir...");
-            p.Abrir ();
-            p.MostrarEstado ();
-        }
-    }
+
 }
