@@ -17,7 +17,7 @@ namespace _13_arrays_ordenacion {
                 foreach (int dato in datos) // Muestro datos
                     Console.Write ("{0} ", dato);
                 Console.WriteLine ();
-                for (j = i + 1; j < n; j++) {
+                for (j = i + 1; j < datos.Length ; j++) {
                     if (datos[i] > datos[j]) {
                         datoTemporal = datos[i];
                         datos[i] = datos[j];
