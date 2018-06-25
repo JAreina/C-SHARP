@@ -3,6 +3,16 @@
 namespace _28_super_enJAVA_base_enCSHARP {
     public class Animal { }
     // ------------------
+
+
+    /*LLAMAR A CONSTRUCTOR PADRE  : base() 
+    public RectanguloRelleno (int x, int y ): base (x, y)
+            {
+            // Pasos adicionales
+            // que no da un rectangulo "normal"
+            }
+    
+     */
     public class Gato : Animal {
         public void Hablar () {
             Console.WriteLine ("Miauuu");
