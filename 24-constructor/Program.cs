@@ -17,8 +17,13 @@ namespace _24_constructor {
             alto = al;
             color = 0xFFFFFF;
             abierta = false;
+        
         }
- 
+        
+        ~Puerta () {
+            // Liberar memoria
+            // Cerrar ficheros
+        }
         public void Abrir () {
             abierta = true;
         }
